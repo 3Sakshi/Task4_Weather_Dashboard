@@ -70,6 +70,7 @@ The displayed weather values are obtained from the Open-Meteo API at runtime.
 
 ## Testing
 Automated tests are written using pytest.
+
 Run:
 ```text
 pytest -q
