@@ -1,6 +1,7 @@
 # Weather Dashboard
 A Python-based weather dashboard that fetches live weather data using the Open-Meteo API. The project includes input validation, error handling, weather-code processing, and automated testing with pytest.
 
+
 ## Features
 - Search weather by city name
 - Fetch live weather data from an external API
@@ -14,12 +15,14 @@ A Python-based weather dashboard that fetches live weather data using the Open-M
 - Error handling for invalid or unavailable cities
 - Automated testing using pytest
 
+
 ## Technologies Used
 - Python
 - Open-Meteo API
 - urllib
 - JSON
 - pytest
+
 
 ## Project Structure
 ```text
@@ -31,6 +34,7 @@ Task4_Weather_Dashboard/
 └── test_weather_service.py
 ```
 
+
 ## How It Works
 1. The user enters a city name.
 2. The application sends the city name to the Open-Meteo Geocoding API.
@@ -38,6 +42,7 @@ Task4_Weather_Dashboard/
 4. These coordinates are used to request current weather data.
 5. The application processes the API response.
 6. Weather information is displayed in a dashboard format.
+
 
 ## How to Run
 Run the following command:
@@ -62,6 +67,7 @@ Timezone    : Asia/Kolkata
 ```
 The displayed weather values are obtained from the Open-Meteo API at runtime.
 
+
 ## Testing
 Automated tests are written using pytest.
 Run:
@@ -79,6 +85,7 @@ The tests cover:
 
 The external API is mocked during automated testing so that the tests remain independent of internet connectivity.
 
+
 ## Error Handling
 The application handles:
 - Empty city names
@@ -86,6 +93,7 @@ The application handles:
 - Cities that cannot be found
 - Network/API errors
 - Unexpected API responses
+
 
 ## Learning Outcomes
 Through this project, I practiced:
@@ -98,6 +106,7 @@ Through this project, I practiced:
 - API response processing
 - Automated testing with pytest
 - GitHub project documentation
+
 
 ## Author
 Sakshi Tayade
