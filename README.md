@@ -50,6 +50,7 @@ Run the following command:
 python main.py
 ```
 Enter a city name when prompted.
+
 Example:
 ```text
 Enter city name (or 'exit' to quit): Pune
